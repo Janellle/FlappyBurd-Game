@@ -1,0 +1,27 @@
+Janelle Uganiza
+Marcello Miccoli
+Instructor Rebold
+CSIS 10A
+17 December 2015
+Final Project Writeup: Flappy Burd
+
+	Our Flappy Burd project is a simplified recreation of the original game called "Flappy Bird". The concept of the game is relatively simple as the goal is to get the bird as far as the user can possibly can while trying to get the bird through the gap of two pipes. Since the original intent of the game was for mobile devices, the user had to tap the screen of smart phones; we had the simple task of implementing a single key to activate the bird's flight. Our version of the game is simplified because we include the basic features, automatic restart of the game when the user crashes, a score counter, as well as a colored background and imported image of the actual "Flappy Bird" bird. The project covers the use of arrays, random numbers to generate the size of the pipes, graphics as well as simple animation. The flaws of the project are that the game has no start menu and the score counter does not record the user's highest score for the time playing. Over the course of the project we overcame some hurdles as well as stumbled over some. We tried implementing a start menu that would allow the user to click "Play" and the game would start. However with the short timing of the project and the lack of getting together as partners, we faced the issue of clicking "Play" but as the game started, the menu remained on the screen and would not vanish. (See screenshot1) 
+Despite the adversaries we faced, we surely were able to accomplish a few personal goals such as being able to run the game in the first place and use an imported image of the actual bird rather than using a simple created object such as a square or circle. The imported image was a personal goal because with image imports we faced the struggle of trying to decide if we were going to make our game as an applet or find a way to use jframe and import our image. On our own, we were able to accomplish majority of the game such as creating an arraylist to generate the pipes, import our own bird image, establish the game boundaries, draw objects and a background, and implement the usage of a key. The biggest issue we faced was finding a way to create a timer so we could create the scrolling motion with pipe generation, at this point in the project we were forced to seek the most help. With the help of some resources we were able to combine different methods to create our project as well as help us find an alternate approach to different aspects of the project.
+
+Resources
+
+1. https://gist.github.com/anonymous/8900751
+
+2. https://github.com/Jaryt23/FlappyBirdTutorial/tree/master/flappyBird and https://www.youtube.com/watch?v=I1qTZaUcFX0 (same author)
+
+3. http://www.javalobby.org/java/forums/t78777.html
+
+4. https://www.youtube.com/watch?v=ngUM9m5cWHk
+
+5. FrogAndFly applet example: http://tomrebold.com/csis10a/AppletExamples/index.htm
+
+6. Batman applet example: see link 4.
+
+7. BouncingBall applet example: see link 4.
+
+8. http://www.java-forums.org/new-java/28681-how-do-you-go-about-setting-boundaries-game.html

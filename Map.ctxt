@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=time
+comment0.target=Map(int)
+comment1.params=
+comment1.target=void\ update()
+comment2.params=g
+comment2.target=void\ render(java.awt.Graphics)
+numComments=3
